@@ -1,7 +1,7 @@
 .header {
   height: 400px;
 
-  background: url("bg.jpg") no-repeat
+  background: url("../assets/i/bg.jpg") no-repeat
   center;
   background-size: cover;
 
@@ -27,9 +27,24 @@ background-size: cover; */
 }
 
 .pagination{
-   active-color: danger;   
+   active-color: danger;
 }
 
+.footer {
+   padding: 2rem 0;
+   margin-top: 3rem;
+   background-color: #4a4a4a;
+
+   color: #ffffff;
+}
+
+.copyright {
+   padding:  1rem;
+
+   background-color: #1b1b1b;
+   color: #aaaaaa;
+   text-align: center;
+}
 
 body {
   background-color: #f8f8f8;
