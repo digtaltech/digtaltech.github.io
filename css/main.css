@@ -1,0 +1,36 @@
+.header {
+  height: 400px;
+
+  background: url("bg.jpg") no-repeat
+  center;
+  background-size: cover;
+
+  color: #ffffff;
+  text-align: center;
+}
+/* background-image: url("bg.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; */
+
+.main {
+  margin-top: 3rem;
+}
+
+.block {
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  background: #ffffff;
+  border-radius: $border-radius;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+}
+
+.pagination{
+   active-color: danger;   
+}
+
+
+body {
+  background-color: #f8f8f8;
+}
