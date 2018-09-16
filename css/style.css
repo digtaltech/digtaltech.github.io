@@ -1,0 +1,302 @@
+.navbar {
+   font-weight: 600;
+}
+
+.navs {
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+.btn {
+
+   color: white;
+   border-radius: 0px;
+   font-size: 1rem;
+   font-weight: bold;
+}
+
+.btn-modal {
+
+}
+
+.dropdown:hover>.dropdown-menu {
+   display: block;
+}
+
+.footer {
+   padding: 2rem 0;
+   background-color: #212121;
+   background-position: center;
+   color: #ffffff;
+}
+
+.copyright {
+   padding: 1rem;
+   background-color: #1b1b1b;
+   color: #aaaaaa;
+   text-align: center;
+}
+
+.header {
+   height: 680px;
+   background-image: url("https://www.gemini-k.com/upload/iblock/687/181.jpg");
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* text-shadow: 2px 2px 0 white, -1px -1px 0 white; */
+   background-color: rgba(0, 0, 0, .5);
+   background-blend-mode: darken;
+   text-align: center;
+   margin-bottom: 5rem;
+   color: white;
+}
+
+.header2 {
+   height: 680px;
+   background-image: url("https://yellowhome.ru/wp-content/uploads/2016/11/61-18.jpg");
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* text-shadow: 2px 2px 0 white, -1px -1px 0 white; */
+   background-color: rgba(0, 0, 0, .5);
+   background-blend-mode: darken;
+   text-align: center;
+   margin-bottom: 5rem;
+   color: white;
+}
+
+.header3 {
+   height: 680px;
+   background-image: url("http://criminalnaya.ru/wp-content/uploads/2016/11/083a2c9a6b50f4924efaf43a027972fd.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* text-shadow: 2px 2px 0 white, -1px -1px 0 white; */
+   background-color: rgba(0, 0, 0, .5);
+   background-blend-mode: darken;
+   text-align: center;
+   margin-bottom: 5rem;
+   color: white;
+}
+
+.header4 {
+   height: 680px;
+   background-image: url("http://www.lodgers.ru/upload/000/u78/710/374c824f.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* text-shadow: 2px 2px 0 white, -1px -1px 0 white; */
+   background-color: rgba(0, 0, 0, .5);
+   background-blend-mode: darken;
+   text-align: center;
+   margin-bottom: 5rem;
+   color: white;
+}
+
+.header5 {
+   height: 680px;
+   background-image: url("http://elitefon.ru/pic/201211/1920x1080/elitefon.ru-27055.jpg");
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* text-shadow: 2px 2px 0 white, -1px -1px 0 white; */
+   background-color: rgba(0, 0, 0, .5);
+   background-blend-mode: darken;
+   text-align: center;
+   margin-bottom: 5rem;
+   color: white;
+}
+
+.display-1 {
+   font-weight: bold;
+   color: white;
+}
+
+.imgcl {
+   width: 428px;
+   height: 529px;
+}
+
+.tabs-cont {
+   font-size: 25px;
+   font-weight: bold;
+   margin-bottom: 3rem;
+}
+
+.text {
+   margin-right: 2rem;
+}
+
+.fas {
+   margin-right: 10px;
+}
+
+.feedback {
+   height: 600px;
+   background-image: url("../img/bgs.png");
+   background-repeat: repeat;
+   background-size: auto;
+
+   /* background-color: rgba(255, 255, 255, .1); */
+   /* background-blend-mode: hard-light; */
+
+
+   text-align: center;
+   color: #6e6b6b;
+
+}
+
+
+.price{
+      font-size: 2rem;
+   font-weight: bold;
+   color: white;
+
+
+}
+
+@media (max-width: 1199px) {
+   .display-1 {
+      font-size: 5rem;
+   }
+   .display-3{
+      font-size: 3rem;
+   }
+   .display-4 {
+      font-size: 3rem;
+   }
+   .navtab {
+      margin-right: 3rem;
+   }
+
+   .price {
+      font-size: 1.6rem;
+      text-align: center;
+
+   }
+   .rows {
+      margin-left: 30px;
+   }
+}
+
+@media (max-width: 991px) {
+   .display-1 {
+      font-size: 3rem;
+   }
+
+   .display-3{
+      font-size: 2.5rem;
+   }
+
+   .display-4 {
+      font-size: 2.5rem;
+   }
+   .hreff {
+      margin-bottom: 1rem;
+   }
+   .text {
+      font-size: 22px;
+      margin-right: 0rem;
+   }
+
+   .price {
+      font-size: 1.5rem;
+      text-align: center;
+
+   }
+   .rows {
+      margin-left: 25px;
+   }
+}
+
+@media (max-width: 767px) {
+   height: 300px;
+   .display-1 {
+      font-size: 5rem;
+   }
+   .display-3{
+      font-size: 2.2rem;
+   }
+   .display-4 {
+      font-size: 2rem;
+   }
+   .imgcl {
+      width: 0px;
+      height: 0px;
+   }
+   .text {
+      font-size: 20px;
+   }
+
+   .price {
+      font-size: 1.5rem;
+      text-align: center;
+
+   }
+   .rows {
+      margin-left: 110px;
+   }
+
+}
+
+@media (max-width: 424px) {
+   .price {
+      font-size: 0rem;
+      text-align: center;
+
+   }
+
+}
+
+
+#map {
+   width: 100%;
+   height: 400px;
+}
+
+.navbar {
+   box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+
+body {
+   background-color: #f6f8fb;
+   font-family: 'Inconsolata', monospace;
+   font-family: 'Indie Flower', cursive;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.media-text {
+   font-size: 20px;
+}
+
+p {
+   color: #7b7b7b;
+}
+
+ul {
+   color: #7b7b7b;
+}
+
+h1 {
+   /* color: #7b7b7b; */
+}
+
+.thumb img {
+   width: 285px;
+   height: 186px;
+   -webkit-filter: grayscale(0);
+   filter: none;
+   border-radius: 5px;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   padding: 5px;
+}
+
+.thumb img:hover {
+   -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+}
+
+.thumb {
+   padding: 5px;
+}
