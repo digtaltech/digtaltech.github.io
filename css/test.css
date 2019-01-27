@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik|Ubuntu');
+a {
+  font-family: Roboto;
+  font-size: 1.1rem;
+}
+.ttt {
+
+  font-family: Ubuntu;
+
+}
+
+.ppp {
+  font-family: Ubuntu;
+
+}
+
+/* .iphone-mockup {
+  width: 800px;
+  height: 532px;
+} */
